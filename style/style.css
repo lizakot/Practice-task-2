@@ -1,0 +1,152 @@
+body nav {
+    font-size: 36px; /*определяет размер шрифта (краски, кисточки, карандаши)*/
+    font-weight: 700; /*насыщенность или толщина шрифта (краски, кисточки, карандаши)*/
+}
+
+body nav a {
+    padding-right: 5px; /*внутренний отступ(краски, кисточки, карандаши)*/
+    margin-right: 5px; /*внешний отступ справа от элемента(краски, кисточки, карандаши)*/
+    color: #408253;
+    text-decoration: none; /*позволяет добавить декоративные линии тексту*/
+}
+
+body nav a:hover {
+    color: #326540; /* меняет цвет,когда наводишь на текст */
+}
+
+body nav a:not(:last-child) {/*NOT - СОКРАЩАЕМ ДВА БЛОКА КОДА ДО ОДНОГО LAST-CHILD - НАХОДИТ ЭЛЕМЕНТ, ЯВЛЯЮЩИЙСЯ ПОСЛЕДНИМ В ЕГО РОДИТЕЛИ */
+    border-right: 1px solid #408253; /*становления толщины, стиля и цвета правой границы элемента*/
+} 
+
+body {
+    background-color: #ffffff; /*определяет цвет фона сайта*/
+    color: #000000;
+    font-family: sans-serif; /* шрифт */
+    font-size: 10px; /* размер шрифта*/
+    min-width: 360px; /*минимальная ширина */
+    min-height: 100%; /* минимальная высота */
+}
+
+.tables {
+    padding: 15px; /*устанавливает внутренние отступы/поля со всех сторон */
+}
+
+body header h1 {
+    text-align: center; /* выравнивание */
+}
+
+main header h1 {
+    text-align: center; /* выравнивание */
+    font-size: 64px; /* размер шрифта*/
+}
+
+.babySupplies {
+    text-align: center; /* выравнивание */
+    margin-bottom: 64px; /*устанавливает внешний отступ внизу элемента*/
+}
+
+.babySupplies h4 {
+    font-size: 48px; /* размер шрифта*/
+    text-align: center; /* выравнивание */
+    font-family: 'Open Sans'; /* шрифт */
+    font-style: normal; /* каким образом шрифт должен быть стилизирован */
+    font-weight: 700; /*насыщенность или толщина шрифта */
+    font-size: 48px;  /* размер шрифта*/
+    line-height: 65px; /*  устанавливает величину пространства между строками, например в тексте */
+}
+
+.shopInfo {
+    font-size: 24px; /* размер шрифта*/
+    text-align: center; /* выравнивание */
+    font-family: 'Open Sans'; /* шрифт */
+    font-style: normal; /* каким образом шрифт должен быть стилизирован */
+    font-weight: 300; /*насыщенность или толщина шрифта */
+    line-height: 33px; /*  устанавливает величину пространства между строками, например в тексте */
+}
+
+.tables header h4 {
+    font-size: 48px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: right;
+}
+
+svg {
+    fill: rgb(255, 255, 255); /*Fill - устанавливает цвет внутри объекта, а stroke задаёт цвет линии, которая рисуется вокруг объекта*/
+    stroke: black;
+    stroke-width: 2;
+    height: 20px;
+  }
+  
+  .chancellery-image,
+  .nav-image {
+    display: block; /*определяет тип отображения */
+    margin-left: auto;/*устанавливает внешний отступ слева от элемента*/
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.tables {
+    margin-bottom: -50px; /*устанавливает внешний отступ внизу элемента*/
+}
+
+table {
+    border: 1px solid #408253; /* устанавливает толщину рамки тоблицы*/
+    border-collapse: collapse; /*определяет, как отображать границы вокруг ячеек таблицы*/
+    min-width: 100%;
+    font-size: 30px;
+    background-color: #D9F0E0;
+    margin-bottom: 10px;
+}
+
+th {
+    border: 1px solid #408253;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #408253;
+    padding: 9px;
+    text-align: justify;
+    text-align: center;
+}
+
+.discounts {
+    background-color: #408253;
+    color: white;
+    font-style: italic;
+    min-width: 100%;
+}
+
+.discounts .left{
+    text-align: left;
+}
+
+.discounts td {
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px
+}
+
+.default-font-style {
+    font-style: normal;
+}
+
+.discounts .italic {
+    font-style: italic;
+}
+
+.note {
+    font-size: 12px;
+    letter-spacing: 1px; /*cвойство, определяющее интервал между символами*/
+    opacity: 0.7; /*устанавливает непрозрачность элемента*/
+} 
